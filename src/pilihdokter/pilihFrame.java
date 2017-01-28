@@ -88,7 +88,7 @@ public class pilihFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jtxtnama);
-        jtxtnama.setBounds(120, 30, 150, 20);
+        jtxtnama.setBounds(120, 30, 180, 30);
 
         jLabel4.setText("Alamat");
         jPanel1.add(jLabel4);
@@ -100,7 +100,7 @@ public class pilihFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jtxtalamat);
-        jtxtalamat.setBounds(120, 60, 150, 20);
+        jtxtalamat.setBounds(120, 60, 180, 30);
 
         jLabel5.setText("Usia");
         jPanel1.add(jLabel5);
@@ -112,7 +112,7 @@ public class pilihFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jtxtusia);
-        jtxtusia.setBounds(120, 90, 150, 20);
+        jtxtusia.setBounds(120, 90, 180, 30);
 
         jLabel6.setText("Jenis Kelamin");
         jPanel1.add(jLabel6);
@@ -124,7 +124,7 @@ public class pilihFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jtxtjenis);
-        jtxtjenis.setBounds(120, 120, 150, 20);
+        jtxtjenis.setBounds(120, 120, 180, 30);
 
         jLabel7.setText("Gologan Darah");
         jPanel1.add(jLabel7);
@@ -136,7 +136,7 @@ public class pilihFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jtxtgol);
-        jtxtgol.setBounds(120, 150, 150, 20);
+        jtxtgol.setBounds(120, 150, 180, 30);
 
         jLabel8.setText("Status");
         jPanel1.add(jLabel8);
@@ -148,7 +148,7 @@ public class pilihFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jtxtstatus);
-        jtxtstatus.setBounds(120, 180, 150, 20);
+        jtxtstatus.setBounds(120, 180, 180, 30);
 
         jLabel9.setText("Kewarganegaraan");
         jPanel1.add(jLabel9);
@@ -160,7 +160,7 @@ public class pilihFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jtxtkewar);
-        jtxtkewar.setBounds(120, 210, 150, 20);
+        jtxtkewar.setBounds(120, 210, 180, 30);
 
         jLabel10.setText("Waktu  Praktek");
         jPanel1.add(jLabel10);
@@ -172,7 +172,7 @@ public class pilihFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jtxtwaktu);
-        jtxtwaktu.setBounds(120, 240, 150, 20);
+        jtxtwaktu.setBounds(120, 240, 180, 30);
 
         jLabel11.setText("Dokter Spesialis");
         jPanel1.add(jLabel11);
@@ -184,10 +184,10 @@ public class pilihFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jtxtspesial);
-        jtxtspesial.setBounds(120, 270, 150, 20);
+        jtxtspesial.setBounds(120, 270, 180, 30);
 
         jPanel2.add(jPanel1);
-        jPanel1.setBounds(20, 110, 360, 310);
+        jPanel1.setBounds(20, 110, 370, 340);
 
         jconadokt.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Pilih Salah Satu--", "DR. Farras Yassar", "DR. Anisa Putri", "DR. Harun Fajar" }));
         jconadokt.addActionListener(new java.awt.event.ActionListener() {
@@ -199,9 +199,9 @@ public class pilihFrame extends javax.swing.JFrame {
         jconadokt.setBounds(140, 70, 140, 20);
 
         getContentPane().add(jPanel2);
-        jPanel2.setBounds(0, 0, 390, 420);
+        jPanel2.setBounds(0, 0, 390, 450);
 
-        setBounds(0, 0, 416, 461);
+        setBounds(0, 0, 416, 486);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jconadoktActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jconadoktActionPerformed
@@ -218,7 +218,7 @@ public class pilihFrame extends javax.swing.JFrame {
             jtxtwaktu.setText(" Pagi (07.00-15.00)"); 
         }
         
-        if(jconadokt.getSelectedItem().equals("DR. Anisa Putri ")){ 
+        if(jconadokt.getSelectedItem().equals("DR. Anisa Putri")){ 
             jtxtnama.setText("DR. Anisa Putri"); 
             jtxtalamat.setText("Jl. Veteran 3, Malang"); 
             jtxtusia.setText("20 Tahun"); 
@@ -230,7 +230,7 @@ public class pilihFrame extends javax.swing.JFrame {
             jtxtwaktu.setText(" Sore (16.00-22.00)"); 
         }
         
-        if(jconadokt.getSelectedItem().equals("DR. Harun Fajar ")){ 
+        if(jconadokt.getSelectedItem().equals("DR. Harun Fajar")){ 
             jtxtnama.setText("DR. Harun Fajar "); 
             jtxtalamat.setText("Jl. Bandung 9, Malang"); 
             jtxtusia.setText("20 Tahun"); 
